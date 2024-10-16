@@ -7,9 +7,13 @@ PyLogger is an offline keylogger written in Python that captures clipboard data,
 Features:
 
 Keystroke Logging: Records all keystrokes made on the system.
+
 Clipboard Monitoring: Captures and logs clipboard data.
+
 Screenshot Capture: Takes screenshots at specified intervals.
+
 SQLite Database: All logged data is stored in a SQLite database (keylogger.db), which can be easily viewed using DB Browser for SQLite.
+
 Local Operation: Operates entirely on the local machine without transmitting data externally, ensuring privacy and security.
 
 Purpose:
@@ -36,7 +40,7 @@ cd PyLogger
 Run the program:
 Through your code editor or command line terminal:
 
-python pylogger.py
+python main.py
 
 Access the logged data:
 Open the keylogger.db file using DB Browser for SQLite to view the logged keystrokes, clipboard data, and paths to screenshots.
